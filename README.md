@@ -53,6 +53,99 @@ Table 1: Summary of Audio Classification Top 10 Experiments - Features and Model
 |9|MFCC (mean, std) + Pitches (mean, std)|Ensemble (SVM + MLP) (Partial)|83\.00%|
 |10|MFCC (mean, std) + Pitches (mean, std)|Ensemble (MLP + RF) (Cross-Validated)|84\.14% (Mean)|
 
+Table 2: Summary of Audio Classification Top 10 Experiments-Results![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.001.png)
+
+N° Test Accuracy Confusion Matrix Classification Report
+
+Precision Recall F1-Score Support
+
+113 0 41 C 0.81 0.73 0.77 154
+
+1 75.00% 9 62 83 D 0.86 0.40 0.55 154
+
+18 10 308 N 0.71 0.92 0.80 336![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.002.png)
+
+Precision Recall F1-Score Support
+
+32 0 9 C 0.59 0.78 0.67 41
+
+2 75.28% 5 21 6 D 0.75 0.66 0.70 32
+
+17 7 81 N 0.84 0.77 0.81 105![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.003.png)
+
+Precision Recall F1-Score Support
+
+25 0 16 C 0.83 0.61 0.70 41
+
+3 76.97% 1 14 17 D 0.82 0.44 0.57 32
+
+4 3 98 N 0.75 0.93 0.83 105![ref1]
+
+Precision Recall F1-Score Support
+
+31 0 10 C 0.62 0.76 0.68 41
+
+4 76.97% 4 21 7 D 0.81 0.66 0.72 32
+
+15 5 85 N 0.83 0.81 0.82 105![ref1]
+
+Precision Recall F1-Score Support
+
+26 1 14 C 0.96 0.63 0.76 41
+
+5 81.46% 1 17 16 D 0.89 0.50 0.64 34
+
+0 1 102 N 0.77 0.99 0.87 103![ref1]
+
+Precision Recall F1-Score Support
+
+25 0 16 C 0.83 0.61 0.70 41
+
+6 82.00% 1 14 17 D 0.82 0.44 0.57 32
+
+4 3 98 N 0.75 0.93 0.83 105![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.005.png)
+
+Precision Recall F1-Score Support
+
+60 1 18 C 0.83 0.76 0.79 79
+
+7 82.02% 3 46 22 D 0.79 0.65 0.71 71
+
+9 11 186 N 0.82 0.90 0.86 206![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.006.png)
+
+Precision Recall F1-Score Support
+
+25 0 16 C 0.83 0.61 0.70 41
+
+8 83.00% 1 14 17 D 0.82 0.44 0.57 32
+
+4 3 98 N 0.75 0.93 0.83 105![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.007.png)
+
+Precision Recall F1-Score Support
+
+33 0 8 C 0.82 0.80 0.81 41
+
+9 83.71% 1 21 10 D 0.84 0.66 0.74 32
+
+6 4 95 N 0.84 0.90 0.87 105![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.008.png)
+
+3
+
+N° CV Score Mean Confusion Matrix![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.009.png)
+
+ 
+
+0\.85955056 336 8 62 0.79775281 20 233 69 
+
+10 0.85674157 0.8414 65 58 927 0.85352113 0.83943662![](Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.010.png)
+
+Classification Report
+
+Class Precision Recall F1-Score Support
+
+C 0.80 0.83 0.81 406 D 0.78 0.72 0.75 322 N 0.88 0.88 0.88 1050
+
+4
 
 Analysis and Comparison of the Top Ten Experiments:
 
@@ -77,5 +170,4 @@ The ensemble model, consisting of MLP and RandomForest classifiers, has proven t
 
 These findings not only underscore the significant enhancement achieved but also highlight the potential for further refinement. As we continue to fine-tune our approach and explore additional avenues, there is optimism for achieving even greater accuracy and applicability in real-world scenarios.
 
-
-
+[ref1]: Aspose.Words.968f9469-b591-4603-b2df-8bf12e078e68.004.png
